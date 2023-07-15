@@ -1,0 +1,20 @@
+The project is a simple to-do list application implemented in PHP. Here's a brief summary:
+
+Registration (register.php):
+
+Users can create an account by providing their username, email, and password.
+The form data is validated on the server-side to ensure the required fields are filled and the email is in a valid format.
+Upon successful registration, the user's information is stored in the database for future login.
+Login (login.php):
+
+Registered users can log in using their email and password.
+The login credentials are verified against the database records.
+Upon successful login, the user is redirected to the tasks page.
+Tasks Page (tasks.php):
+
+After logging in, users can view their to-do list.
+Users can add new tasks by entering a task description in the input field and clicking the "Add Task" button.
+The newly added tasks are stored in the database and displayed on the page.
+Users can mark tasks as completed or delete them.
+The task list is dynamically updated without the need for page refresh.
+The project uses PHP for server-side processing, MySQL for the database, and HTML/CSS for the user interface. It demonstrates basic CRUD (Create, Read, Update, Delete) operations for managing a to-do list.
